@@ -1,0 +1,9 @@
+drwx--x--x   2 stipe_user_4786261 stipe_user_4786261     4096 Jan 19 10:51 .
+drwx--x--x   3 stipe_user_4786261 stipe_user_4786261     4096 Jan 19 10:51 ..
+-rwx--x--x   1 stipe_user_4786261 stipe_user_4786261      132 Jan 26 12:56 kit.mcfunction
+-rwx--x--x   1 stipe_user_4786261 stipe_user_4786261      893 Mar 21 07:22 second.mcfunction
+-rwx--x--x   1 stipe_user_4786261 stipe_user_4786261     4231 Jan 26 12:56 sortfarm.mcfunction
+-rwx--x--x   1 stipe_user_4786261 stipe_user_4786261   198949 Jan 26 12:56 sort.mcfunction
+-rwx--x--x   1 stipe_user_4786261 stipe_user_4786261      356 Jan 26 12:56 tagger.mcfunction
+-rwx--x--x   1 stipe_user_4786261 stipe_user_4786261       57 Jan 26 12:56 targetfarm.mcfunction
+-rwx--x--x   1 stipe_user_4786261 stipe_user_4786261       57 Jan 26 12:56 targetsort.mcfunction
