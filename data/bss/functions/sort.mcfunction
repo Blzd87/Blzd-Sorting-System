@@ -183,7 +183,7 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:cracked_polished_b
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:cracked_stone_bricks"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:cracked_stone_bricks"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:crafting_table"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:crafting_table"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:creeper_banner_pattern"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:white_banner"}}]
-execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:creeper_head"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:creeper_head"}}]
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:creeper_head"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:player_head"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:crimson_button"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:oak_button"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:crimson_door"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:oak_door"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:crimson_fence_gate"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:oak_fence_gate"}}]
@@ -741,7 +741,7 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:shield"}}] run tel
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:shroomlight"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:shroomlight"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:shulker_box"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:chest"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:shulker_shell"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:shulker_shell"}}]
-execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:skeleton_skull"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:skeleton_skull"}}]
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:skeleton_skull"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:player_head"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:skull_banner_pattern"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:white_banner"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:slime_ball"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:slime_ball"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:slime_block"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:slime_ball"}}]
@@ -900,7 +900,7 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:yellow_stained_gla
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:yellow_stained_glass_pane"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:glass_pane"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:yellow_terracotta"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:terracotta"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:yellow_wool"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:yellow_wool"}}]
-execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:zombie_head"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:zombie_head"}}]
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:zombie_head"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:player_head"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:spawner"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:spawner"}}]
 
 ## 1.17 Support
