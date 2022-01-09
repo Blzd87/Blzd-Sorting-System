@@ -3,8 +3,8 @@
 
 # Farm Sort Section
 
-execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:target if block ~ ~-2 ~ minecraft:gold_block run function bss:sortfarm
-execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:grass_block if block ~ ~-2 ~ minecraft:gold_block run function bss:sortfarm
+execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:target if block ~ ~-2 ~ minecraft:iron_block run function bss:sortfarm
+execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:grass_block if block ~ ~-2 ~ minecraft:iron_block run function bss:sortfarm
 
 # Chest Room Sort Section
 
