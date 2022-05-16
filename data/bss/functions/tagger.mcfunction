@@ -1,2 +1,3 @@
 execute as @e[type=minecraft:item_frame,tag=!bss_sort_target,nbt={Item:{id:"minecraft:command_block",tag:{display:{Name:'{"text":"Sort Target"}'}}}}] run function bss:targetsort
 execute as @e[type=minecraft:item_frame,tag=!bss_farm_target,nbt={Item:{id:"minecraft:command_block",tag:{display:{Name:'{"text":"Farm Target"}'}}}}] run function bss:targetfarm
+execute as @e[type=minecraft:item_frame,tag=!bss_farm_target,nbt={Item:{id:"minecraft:command_block",tag:{display:{Name:'{"text":"Catch All"}'}}}}] run function bss:targetall

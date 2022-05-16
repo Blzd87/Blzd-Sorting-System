@@ -1019,3 +1019,10 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:weathered_cut_copp
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:weathered_cut_copper_stairs"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:stone_stairs"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:white_candle"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:white_candle"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:yellow_candle"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:white_candle"}}]
+
+## 1.18 Support
+
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:music_disc_otherside"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:note_block"}}]
+
+## Catch All Sorting. If normal sorting does not succeed, attempt to send item to item frame tagged with Catch All
+execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:grass_block if block ~ ~-2 ~ minecraft:gold_block run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_catchall]
