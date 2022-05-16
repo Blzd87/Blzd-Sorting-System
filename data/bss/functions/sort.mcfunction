@@ -225,6 +225,7 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:netherite_boots"}}
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:netherite_chestplate"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:diamond_chestplate"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:netherite_helmet"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:diamond_chestplate"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:netherite_leggings"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:diamond_chestplate"}}]
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:golden_chestplate"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:diamond_chestplate"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:bow"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:diamond_sword"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:crossbow"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:diamond_sword"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:diamond_axe"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:diamond_sword"}}]
@@ -252,6 +253,11 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:wooden_hoe"}}] run
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:wooden_pickaxe"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:diamond_sword"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:wooden_shovel"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:diamond_sword"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:wooden_sword"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:diamond_sword"}}]
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:golden_axe"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:diamond_sword"}}]
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:golden_hoe"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:diamond_sword"}}]
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:golden_pickaxe"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:diamond_sword"}}]
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:golden_shovel"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:diamond_sword"}}]
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:golden_sword"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:diamond_sword"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:diamond"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:diamond"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:diamond_block"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:diamond"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:diorite"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:diorite"}}]
@@ -344,12 +350,6 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:gold_ingot"}}] run
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:gold_nugget"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:gold_ingot"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:raw_gold"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:gold_ingot"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:raw_gold_block"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:gold_ingot"}}]
-execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:golden_axe"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:golden_axe"}}]
-execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:golden_chestplate"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:golden_chestplate"}}]
-execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:golden_hoe"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:golden_hoe"}}]
-execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:golden_pickaxe"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:golden_pickaxe"}}]
-execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:golden_shovel"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:golden_shovel"}}]
-execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:golden_sword"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:golden_sword"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:granite"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:granite"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:polished_granite"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:granite"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:grass_block"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:grass_block"}}]
@@ -1018,8 +1018,8 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:white_wool"}}] run
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:wither_skeleton_skull"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:wither_skeleton_skull"}}]
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:yellow_wool"}}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_sort_target,nbt={Item:{id:"minecraft:yellow_wool"}}]
 
-
 ## Catch All Sorting. If normal sorting does not succeed, attempt to send item to item frame tagged with Catch All
+
 execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:grass_block if block ~ ~-2 ~ minecraft:gold_block run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_catchall]
 execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:dirt if block ~ ~-2 ~ minecraft:gold_block run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_catchall]
 execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:obsidian if block ~ ~-2 ~ minecraft:gold_block run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_catchall]
