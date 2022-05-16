@@ -1026,3 +1026,7 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:music_disc_othersi
 
 ## Catch All Sorting. If normal sorting does not succeed, attempt to send item to item frame tagged with Catch All
 execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:grass_block if block ~ ~-2 ~ minecraft:gold_block run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_catchall]
+execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:dirt if block ~ ~-2 ~ minecraft:gold_block run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_catchall]
+execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:obsidian if block ~ ~-2 ~ minecraft:gold_block run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_catchall]
+execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:crimson_nylium if block ~ ~-2 ~ minecraft:gold_block run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_catchall]
+execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:warped_nylium if block ~ ~-2 ~ minecraft:gold_block run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,distance=..64,tag=bss_catchall]
